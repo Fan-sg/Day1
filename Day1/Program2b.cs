@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Day1
 {
-    class Program2
+    class Program2b
     {
         static void Main()
         {
-            Console.WriteLine("This is my second class");
-            Console.WriteLine("A new milestone");
-            
+            int a = 1;
+            a = a + 1;
+            Console.WriteLine(a);
         }
     }
 }
